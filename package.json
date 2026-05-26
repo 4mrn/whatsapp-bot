@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot multifuncional para WhatsApp con música, juegos y más",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.6.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0",
+    "youtube-dl-exec": "^3.1.7",
+    "yt-search": "^2.10.4"
+  }
+}
